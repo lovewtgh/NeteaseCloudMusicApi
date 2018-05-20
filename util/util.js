@@ -56,6 +56,7 @@ function createWebAPIRequest(
       "Content-Type": "application/x-www-form-urlencoded",
       Referer: "http://music.163.com",
       Host: "music.163.com",
+      "X-Real-IP" : "123.125.115.110",
       Cookie: cookie,
       "User-Agent": randomUserAgent()
     },
